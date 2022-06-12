@@ -1,24 +1,18 @@
 import "./Navbar.css";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import About from "./About";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
     return (
         <div className="navbar">
-            <BrowserRouter>
             <div className="links">
-                <Link className="title" to="/">Logo</Link>
+                <Link to="/" className="pageLinks">Home</Link>
                 <div className="segment"></div>
-                <Link to="/about">About</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/resume">Resumé</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/about" className="pageLinks">About</Link>
+                <Link to="/projects" className="pageLinks">Projects</Link>
+                <Link to="/resume" className="pageLinks">Resume</Link>
+                <Link to="/contact" className="pageLinks">Contact</Link>
             </div>
-            <Routes>
-                <Route> path="/contact" element={<About />} </Route>
-            </Routes>
-            </BrowserRouter>
         </div>
     );
 }

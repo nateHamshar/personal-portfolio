@@ -5,10 +5,12 @@
     color: red;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
     height: 4rem;
     box-shadow: 0px 3px 10px rgba(255,255,255, 0.5);
-    width: 100%;
+    width: 100vw;
+    position:sticky;
+    top: 0;
 }
 .links{
     height: 50%;
@@ -17,19 +19,33 @@
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    align-items: end;
     font-family: 'Quicksand', sans-serif;
     margin: 0 .5rem;
     margin-bottom: .5rem;
 }
 .segment{
-    height: 70%;
+    height: 100%;
     border: 1px solid rgb(168, 168, 168);
-    margin-bottom: .05rem;
+    margin: 0 5px;
 }
-
-a{
+.pageLinks{
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 100vw;
+    text-align: center;
+    box-shadow: 0px 0px .5rem rgb(255, 255, 255);
+}
+.pageLinks:hover{
+    color: red;
+    border: 1px solid red;
+    box-shadow: 0px 0px .5rem red;
+}
+
+.pageLinks:active{
+    color: lime;
+    border: 1px solid lime;
+    box-shadow: 0px 0px .5rem lime;
 }
