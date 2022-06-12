@@ -7,17 +7,76 @@
     vertical-align: baseline;
     background: transparent;
   }
-
 .homePage{
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .square{
     width: 50vh;
     height: 50vh;
+    position: absolute;
+}
+.one {
+    border: 2px solid crimson;
+    transform: rotate(67.5deg);
+    animation-name: spinc;
+    animation-duration: 30000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.two{
+    border: 2px solid green;
+    transform: rotate(22.5deg);
+    animation-name: spincc;
+    animation-duration: 20000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.three{
+    border: 2px solid navy;
+    animation-name: spinc;
+    animation-duration: 22500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+.five{
     border: 2px solid white;
-    color:white
+    animation-name: spincc;
+    animation-duration: 25000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+.four{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.name{
+    font-size: 3rem;
+    align-self: flex-end;
+}
+.description{
+    align-self: flex-start;
+}
+
+@keyframes spinc {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@keyframes spincc {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(-360deg);
+    }
 }
