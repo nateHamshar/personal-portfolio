@@ -12,6 +12,7 @@
   }
 .Home{
     background-color: black;
+    height: auto;
 }
 .homePage{
     width: 100vw;
