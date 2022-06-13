@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +10,9 @@
     vertical-align: baseline;
     background: transparent;
   }
+.Home{
+    background-color: black;
+}
 .homePage{
     width: 100vw;
     height: 100vh;
@@ -21,7 +27,7 @@
     position: absolute;
 }
 .one {
-    border: 2px solid crimson;
+    border: 8px solid orangered;
     transform: rotate(67.5deg);
     animation-name: spinc;
     animation-duration: 30000ms;
@@ -29,7 +35,7 @@
     animation-timing-function: linear;
 }
 .two{
-    border: 2px solid green;
+    border: 5px solid orangered;
     transform: rotate(22.5deg);
     animation-name: spincc;
     animation-duration: 20000ms;
@@ -37,14 +43,14 @@
     animation-timing-function: linear;
 }
 .three{
-    border: 2px solid navy;
+    border: 7px solid orangered;
     animation-name: spinc;
     animation-duration: 22500ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
 .five{
-    border: 2px solid white;
+    border: 5px solid orangered;
     animation-name: spincc;
     animation-duration: 25000ms;
     animation-iteration-count: infinite;
@@ -55,6 +61,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: "Quicksand";
 }
 .name{
     font-size: 3rem;
