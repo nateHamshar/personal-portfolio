@@ -7,7 +7,7 @@ const About = () => {
       <div className="container">
         <div className="me section">
           <h1 className="title">Hi, my name is Nate Hamshar</h1>
-          <p className="description">I am a self taught front end developer, with a passion for making websites that are both functional and beautiful. I tend to pick up skills quickly, and love to push myself to get better and better every day. If I'm not in front of my laptop, I'm probably playing Rocket League or playing with my dogs.</p>
+          <p className="description">I am a self taught front end developer, with a passion for making websites that are both functional and beautiful. I tend to pick up skills quickly, and love to push myself to get better and better every day. If I'm not in front of my laptop, I'm probably gaming or playing with my dogs.</p>
         </div>
         <div className="skills section mini1">
           <FontAwesomeIcon icon={faGithub} className="icons"/>
