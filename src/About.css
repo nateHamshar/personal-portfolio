@@ -37,6 +37,9 @@ ul{
     height: 4rem;
     color: orangered;
 }
+.githubLink{
+    color: orangered;
+}
 
 
 @media (min-Width:650px){

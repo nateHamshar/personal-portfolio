@@ -20,7 +20,7 @@ const About = () => {
         <div className="mySkills section mini1">
           <h1 className="skillset">Skill Set</h1>
           <ul>
-            <li>Git and Github</li>
+            <li>Git and <a className="githubLink" href="https://github.com/nateHamshar" target="_blank">Github</a></li>
             <li>HTML5, CSS3, and JS</li>
             <li>Avid React Developer</li>
             <li>Experience using D3, SASS, Boostrap, and Semantic UI</li>
